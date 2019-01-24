@@ -1,0 +1,51 @@
+{
+  "nodes": [
+    {
+      "id": "B1xgtXWQN",
+      "label": "OK",
+      "position": {
+        "x": 272,
+        "y": 408
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "H11tOmWQN",
+      "position": {
+        "x": 272,
+        "y": 306
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "On Boot"
+      },
+      "id": "S1n3_7-QV",
+      "label": "INIT",
+      "position": {
+        "x": 306,
+        "y": 204
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "Sk6xYXWmV",
+      "label": "ERR",
+      "position": {
+        "x": 306,
+        "y": 408
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "SyF7t7ZXN",
+      "label": "DEV",
+      "position": {
+        "x": 272,
+        "y": 204
+      },
+      "type": "@/input-bno055-device"
+    }
+  ]
+}

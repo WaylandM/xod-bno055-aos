@@ -1,0 +1,67 @@
+{
+  "nodes": [
+    {
+      "id": "BJQG0Mv7N",
+      "label": "STAT",
+      "position": {
+        "x": 34,
+        "y": 204
+      },
+      "type": "xod/patch-nodes/output-byte"
+    },
+    {
+      "id": "BkxfjGDQV",
+      "position": {
+        "x": 34,
+        "y": 102
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "id": "By9a5fPm4",
+      "label": "DEV",
+      "position": {
+        "x": 34,
+        "y": 0
+      },
+      "type": "@/input-bno055-device"
+    },
+    {
+      "description": "Update. Triggers new status reading.",
+      "id": "Hyp25Mwm4",
+      "label": "UPD",
+      "position": {
+        "x": 68,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "S1YmAzPmV",
+      "label": "TEST",
+      "position": {
+        "x": 68,
+        "y": 204
+      },
+      "type": "xod/patch-nodes/output-byte"
+    },
+    {
+      "id": "SkrVRMPXN",
+      "label": "SERR",
+      "position": {
+        "x": 102,
+        "y": 204
+      },
+      "type": "xod/patch-nodes/output-byte"
+    },
+    {
+      "id": "ry1mszwQE",
+      "label": "DONE",
+      "position": {
+        "x": 136,
+        "y": 204
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    }
+  ]
+}

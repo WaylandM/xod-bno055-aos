@@ -1,0 +1,45 @@
+{
+  "nodes": [
+    {
+      "id": "B1IowM-7N",
+      "label": "DEV",
+      "position": {
+        "x": 238,
+        "y": 306
+      },
+      "type": "xod/patch-nodes/output-self"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "0"
+      },
+      "id": "HkecNeM7V",
+      "label": "ID",
+      "position": {
+        "x": 238,
+        "y": 102
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "28h"
+      },
+      "id": "SkjIclMQV",
+      "label": "ADDRESS",
+      "position": {
+        "x": 272,
+        "y": 102
+      },
+      "type": "xod/patch-nodes/input-byte"
+    },
+    {
+      "id": "r1x6Q0xQN",
+      "position": {
+        "x": 238,
+        "y": 204
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    }
+  ]
+}

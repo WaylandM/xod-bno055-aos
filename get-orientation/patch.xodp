@@ -1,0 +1,76 @@
+{
+  "nodes": [
+    {
+      "description": "Sample rate delay.",
+      "id": "B17fKfzXE",
+      "label": "UPD",
+      "position": {
+        "x": 272,
+        "y": 204
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "ByhTWdLQE",
+      "label": "OK",
+      "position": {
+        "x": 340,
+        "y": 408
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "HJy0IzzmN",
+      "label": "Y",
+      "position": {
+        "x": 272,
+        "y": 408
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "id": "HJyJPfGQE",
+      "label": "Z",
+      "position": {
+        "x": 306,
+        "y": 408
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "id": "Hks3UGG74",
+      "label": "X",
+      "position": {
+        "x": 238,
+        "y": 408
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "id": "SJ6AbuUmE",
+      "label": "ERR",
+      "position": {
+        "x": 374,
+        "y": 408
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "rJZ5LfzmN",
+      "label": "DEV",
+      "position": {
+        "x": 238,
+        "y": 204
+      },
+      "type": "@/input-bno055-device"
+    },
+    {
+      "id": "rkpWSGGmN",
+      "position": {
+        "x": 238,
+        "y": 306
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    }
+  ]
+}

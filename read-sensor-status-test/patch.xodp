@@ -1,0 +1,142 @@
+{
+  "links": [
+    {
+      "id": "By4bBmwXN",
+      "input": {
+        "nodeId": "Hy8047P74",
+        "pinKey": "By9a5fPm4"
+      },
+      "output": {
+        "nodeId": "rJDKV7DX4",
+        "pinKey": "B1IowM-7N"
+      }
+    },
+    {
+      "id": "HyCxSXD7N",
+      "input": {
+        "nodeId": "SJyerQwQ4",
+        "pinKey": "BJJICN2lW"
+      },
+      "output": {
+        "nodeId": "HJCnVXv7V",
+        "pinKey": "B1xgtXWQN"
+      }
+    },
+    {
+      "id": "HyJXSQD74",
+      "input": {
+        "nodeId": "rkFzBmPQE",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "Hy8047P74",
+        "pinKey": "SkrVRMPXN"
+      }
+    },
+    {
+      "id": "rJ-TEmwm4",
+      "input": {
+        "nodeId": "HJCnVXv7V",
+        "pinKey": "SyF7t7ZXN"
+      },
+      "output": {
+        "nodeId": "rJDKV7DX4",
+        "pinKey": "B1IowM-7N"
+      }
+    },
+    {
+      "id": "rJpfS7w74",
+      "input": {
+        "nodeId": "SyDzSXvQE",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "Hy8047P74",
+        "pinKey": "S1YmAzPmV"
+      }
+    },
+    {
+      "id": "ryb-HQvmN",
+      "input": {
+        "nodeId": "Hy8047P74",
+        "pinKey": "Hyp25Mwm4"
+      },
+      "output": {
+        "nodeId": "SJyerQwQ4",
+        "pinKey": "HJU8CE2lW"
+      }
+    },
+    {
+      "id": "ryhfr7vXV",
+      "input": {
+        "nodeId": "ByMfrmvQE",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "Hy8047P74",
+        "pinKey": "BJQG0Mv7N"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "ByMfrmvQE",
+      "position": {
+        "x": 204,
+        "y": 408
+      },
+      "type": "xod/core/watch"
+    },
+    {
+      "id": "HJCnVXv7V",
+      "position": {
+        "x": 34,
+        "y": 102
+      },
+      "type": "@/init"
+    },
+    {
+      "id": "Hy8047P74",
+      "position": {
+        "x": 204,
+        "y": 306
+      },
+      "type": "@/get-sensor-status"
+    },
+    {
+      "boundLiterals": {
+        "B13SCNhl-": "0.2"
+      },
+      "id": "SJyerQwQ4",
+      "position": {
+        "x": 238,
+        "y": 204
+      },
+      "type": "xod/core/clock"
+    },
+    {
+      "id": "SyDzSXvQE",
+      "position": {
+        "x": 238,
+        "y": 408
+      },
+      "type": "xod/core/watch"
+    },
+    {
+      "id": "rJDKV7DX4",
+      "position": {
+        "x": 34,
+        "y": 0
+      },
+      "type": "@/bno055-device"
+    },
+    {
+      "id": "rkFzBmPQE",
+      "position": {
+        "x": 272,
+        "y": 408
+      },
+      "type": "xod/core/watch"
+    }
+  ]
+}
