@@ -18,6 +18,15 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
+      "id": "H138gYdQV",
+      "label": "UPD",
+      "position": {
+        "x": 68,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
       "id": "HkfUNwOmV",
       "label": "DEV",
       "position": {
