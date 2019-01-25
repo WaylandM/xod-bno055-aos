@@ -115,7 +115,7 @@
         "x": 68,
         "y": 408
       },
-      "type": "@/get-calibration"
+      "type": "@/read-calibration"
     },
     {
       "id": "S1Qy9_wmN",

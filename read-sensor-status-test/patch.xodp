@@ -101,7 +101,7 @@
         "x": 204,
         "y": 306
       },
-      "type": "@/get-sensor-status"
+      "type": "@/read-sensor-status"
     },
     {
       "boundLiterals": {

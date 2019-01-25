@@ -1,0 +1,75 @@
+{
+  "nodes": [
+    {
+      "id": "B17JCMGF7V",
+      "label": "Y",
+      "position": {
+        "x": 33,
+        "y": 203
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "id": "BygkAfMF7N",
+      "label": "dev",
+      "position": {
+        "x": -1,
+        "y": -1
+      },
+      "type": "@/input-bno055-device"
+    },
+    {
+      "id": "S141AGfYmV",
+      "label": "Z",
+      "position": {
+        "x": 67,
+        "y": 203
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "id": "SyUy0GGtXN",
+      "label": "ERR",
+      "position": {
+        "x": 135,
+        "y": 203
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "rJJ0zGK7N",
+      "position": {
+        "x": -1,
+        "y": 101
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "id": "rJbyAfMtQE",
+      "label": "UPD",
+      "position": {
+        "x": 33,
+        "y": -1
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "ryBJ0zGYQV",
+      "label": "OK",
+      "position": {
+        "x": 101,
+        "y": 203
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "ryf1RGMtmN",
+      "label": "X",
+      "position": {
+        "x": -1,
+        "y": 203
+      },
+      "type": "xod/patch-nodes/output-number"
+    }
+  ]
+}

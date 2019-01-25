@@ -1,0 +1,75 @@
+{
+  "nodes": [
+    {
+      "id": "BJwCMfKm4",
+      "position": {
+        "x": -1,
+        "y": 101
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "id": "ByEv0GfK7V",
+      "label": "Z",
+      "position": {
+        "x": 67,
+        "y": 203
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "id": "HkmwCMzK74",
+      "label": "Y",
+      "position": {
+        "x": 33,
+        "y": 203
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "id": "HyIPCzMKQ4",
+      "label": "ERR",
+      "position": {
+        "x": 135,
+        "y": 203
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "HybP0GztX4",
+      "label": "UPD",
+      "position": {
+        "x": 33,
+        "y": -1
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "Hyrw0MMKmE",
+      "label": "OK",
+      "position": {
+        "x": 101,
+        "y": 203
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "S1zwAffFmV",
+      "label": "X",
+      "position": {
+        "x": -1,
+        "y": 203
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "id": "rkePCMMKQE",
+      "label": "dev",
+      "position": {
+        "x": -1,
+        "y": -1
+      },
+      "type": "@/input-bno055-device"
+    }
+  ]
+}

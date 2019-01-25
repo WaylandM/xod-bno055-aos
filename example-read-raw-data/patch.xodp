@@ -71,7 +71,7 @@
         "x": 204,
         "y": 204
       },
-      "type": "@/get-temp"
+      "type": "@/read-temp"
     },
     {
       "id": "SJmwkK_QV",
