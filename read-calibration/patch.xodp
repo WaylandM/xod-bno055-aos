@@ -1,6 +1,15 @@
 {
   "nodes": [
     {
+      "id": "B1cGATY7N",
+      "label": "MAG",
+      "position": {
+        "x": 102,
+        "y": 204
+      },
+      "type": "xod/patch-nodes/output-byte"
+    },
+    {
       "id": "H1t4FuvQ4",
       "label": "DONE",
       "position": {
@@ -27,6 +36,15 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
+      "id": "S1dMApKm4",
+      "label": "GYRO",
+      "position": {
+        "x": 34,
+        "y": 204
+      },
+      "type": "xod/patch-nodes/output-byte"
+    },
+    {
       "id": "SycexuDX4",
       "label": "DEV",
       "position": {
@@ -43,6 +61,15 @@
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "rktzCTKX4",
+      "label": "ACC",
+      "position": {
+        "x": 68,
+        "y": 204
+      },
+      "type": "xod/patch-nodes/output-byte"
     }
   ]
 }

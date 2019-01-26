@@ -16,5 +16,8 @@ void evaluate(Context ctx) {
     system = gyro = accel = mag = 0;
     aos->getCalibration(&system, &gyro, &accel, &mag);
     emitValue<output_SYS>(ctx, system);
+    emitValue<output_GYRO>(ctx, gyro);
+    emitValue<output_ACC>(ctx, accel);
+    emitValue<output_MAG>(ctx, mag);
     emitValue<output_DONE>(ctx, 1);
 }

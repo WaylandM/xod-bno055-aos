@@ -111,6 +111,17 @@
       }
     },
     {
+      "id": "rJKkCTKX4",
+      "input": {
+        "nodeId": "Hk-0TpK7V",
+        "pinKey": "SycexuDX4"
+      },
+      "output": {
+        "nodeId": "rJC-zhtQV",
+        "pinKey": "B1IowM-7N"
+      }
+    },
+    {
       "id": "rJqXM2YXE",
       "input": {
         "nodeId": "r1ZRWf3FQV",
@@ -150,6 +161,14 @@
         "y": 1326
       },
       "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "id": "Hk-0TpK7V",
+      "position": {
+        "x": 170,
+        "y": 1224
+      },
+      "type": "@/read-calibration"
     },
     {
       "id": "HkW8a73Y7V",
