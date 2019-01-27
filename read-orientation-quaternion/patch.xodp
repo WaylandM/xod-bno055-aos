@@ -28,15 +28,6 @@
       "type": "xod/patch-nodes/output-number"
     },
     {
-      "id": "HkQjMzFQE",
-      "label": "ERR",
-      "position": {
-        "x": 170,
-        "y": 204
-      },
-      "type": "xod/patch-nodes/output-pulse"
-    },
-    {
       "id": "HyodGMtQ4",
       "label": "Y",
       "position": {
@@ -47,7 +38,7 @@
     },
     {
       "id": "S1nqfzt74",
-      "label": "OK",
+      "label": "DONE",
       "position": {
         "x": 136,
         "y": 204

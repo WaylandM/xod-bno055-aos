@@ -45,15 +45,6 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
-      "id": "S1U3azGt74",
-      "label": "ERR",
-      "position": {
-        "x": 135,
-        "y": 203
-      },
-      "type": "xod/patch-nodes/output-pulse"
-    },
-    {
       "id": "SyXnazMKXV",
       "label": "Y",
       "position": {
@@ -64,7 +55,7 @@
     },
     {
       "id": "rJS3pGzF7N",
-      "label": "OK",
+      "label": "DONE",
       "position": {
         "x": 101,
         "y": 203

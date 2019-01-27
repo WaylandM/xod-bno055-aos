@@ -28,19 +28,10 @@
       "type": "xod/patch-nodes/output-number"
     },
     {
-      "id": "SyUy0GGtXN",
-      "label": "ERR",
-      "position": {
-        "x": 135,
-        "y": 203
-      },
-      "type": "xod/patch-nodes/output-pulse"
-    },
-    {
       "id": "rJJ0zGK7N",
       "position": {
-        "x": -1,
-        "y": 101
+        "x": 0,
+        "y": 102
       },
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
@@ -55,7 +46,7 @@
     },
     {
       "id": "ryBJ0zGYQV",
-      "label": "OK",
+      "label": "DONE",
       "position": {
         "x": 101,
         "y": 203

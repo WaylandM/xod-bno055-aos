@@ -13,12 +13,8 @@ void evaluate(Context ctx) {
     auto aos = getValue<input_DEV>(ctx);
 
     imu::Vector<3> linearaccel = aos->getVector(Adafruit_BNO055::VECTOR_LINEARACCEL);
-    if (linearaccel) {
         emitValue<output_X>(ctx,linearaccel.x());
         emitValue<output_Y>(ctx,linearaccel.y());
         emitValue<output_Z>(ctx,linearaccel.z());
-        emitValue<output_OK>(ctx, 1);
-    } else {
-        emitValue<output_ERR>(ctx, 1);
-    }
+        emitValue<output_DONE>(ctx, 1);
 }

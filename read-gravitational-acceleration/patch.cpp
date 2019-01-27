@@ -13,12 +13,8 @@ void evaluate(Context ctx) {
     auto aos = getValue<input_DEV>(ctx);
 
     imu::Vector<3> gravity = aos->getVector(Adafruit_BNO055::VECTOR_GRAVITY);
-    if (gravity) {
         emitValue<output_X>(ctx,gravity.x());
         emitValue<output_Y>(ctx,gravity.y());
         emitValue<output_Z>(ctx,gravity.z());
-        emitValue<output_OK>(ctx, 1);
-    } else {
-        emitValue<output_ERR>(ctx, 1);
-    }
+        emitValue<output_DONE>(ctx, 1);
 }

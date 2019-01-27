@@ -13,13 +13,9 @@ void evaluate(Context ctx) {
     auto aos = getValue<input_DEV>(ctx);
 
     imu::Quaternion quaternion = aos->getQuat();
-    if (quaternion) {
         emitValue<output_W>(ctx,quaternion.w());
         emitValue<output_X>(ctx,quaternion.x());
         emitValue<output_Y>(ctx,quaternion.y());
         emitValue<output_Z>(ctx,quaternion.z());
-        emitValue<output_OK>(ctx, 1);
-    } else {
-        emitValue<output_ERR>(ctx, 1);
-    }
+        emitValue<output_DONE>(ctx, 1);
 }

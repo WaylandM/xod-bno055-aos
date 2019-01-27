@@ -1,0 +1,12 @@
+{
+  "nodes": [
+    {
+      "id": "H1Elml5QN",
+      "position": {
+        "x": 136,
+        "y": 204
+      },
+      "type": "@/abs-orient-sensor"
+    }
+  ]
+}

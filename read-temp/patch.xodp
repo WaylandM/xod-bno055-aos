@@ -9,15 +9,6 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
-      "id": "BkIjPwd7E",
-      "label": "ERR",
-      "position": {
-        "x": 102,
-        "y": 204
-      },
-      "type": "xod/patch-nodes/output-pulse"
-    },
-    {
       "id": "H138gYdQV",
       "label": "UPD",
       "position": {
@@ -37,7 +28,7 @@
     },
     {
       "id": "SkO6Vvd7E",
-      "label": "OK",
+      "label": "DONE",
       "position": {
         "x": 68,
         "y": 204

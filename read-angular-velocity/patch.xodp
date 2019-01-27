@@ -1,15 +1,6 @@
 {
   "nodes": [
     {
-      "id": "BJIYCGGKQV",
-      "label": "ERR",
-      "position": {
-        "x": 135,
-        "y": 203
-      },
-      "type": "xod/patch-nodes/output-pulse"
-    },
-    {
       "id": "BkfKRfGFm4",
       "label": "X",
       "position": {
@@ -28,7 +19,7 @@
     },
     {
       "id": "HygF0MGt7V",
-      "label": "dev",
+      "label": "DEV",
       "position": {
         "x": -1,
         "y": -1
@@ -64,7 +55,7 @@
     },
     {
       "id": "ryBY0zGYmV",
-      "label": "OK",
+      "label": "DONE",
       "position": {
         "x": 101,
         "y": 203

@@ -1,0 +1,147 @@
+{
+  "links": [
+    {
+      "id": "BkitSD5XN",
+      "input": {
+        "nodeId": "BJbKHw97N",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "HkuDBDqX4",
+        "pinKey": "H1H6Wg9XE"
+      }
+    },
+    {
+      "id": "By15rD9QE",
+      "input": {
+        "nodeId": "B1zYSv5mN",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "HkuDBDqX4",
+        "pinKey": "Sks6bg5mV"
+      }
+    },
+    {
+      "id": "H1BKBP9XN",
+      "input": {
+        "nodeId": "SyFuSv57N",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "HkuDBDqX4",
+        "pinKey": "SyU6QhK7N"
+      }
+    },
+    {
+      "id": "Skg5rPqQV",
+      "input": {
+        "nodeId": "BJeMtSvqXN",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "HkuDBDqX4",
+        "pinKey": "Sy3abgq74"
+      }
+    },
+    {
+      "id": "rJpYBP5Q4",
+      "input": {
+        "nodeId": "HyeZYHDq74",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "HkuDBDqX4",
+        "pinKey": "S1caZx9XE"
+      }
+    },
+    {
+      "id": "rJvKSw9XE",
+      "input": {
+        "nodeId": "Hk1YSw9mV",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "HkuDBDqX4",
+        "pinKey": "B1xUpXhF7V"
+      }
+    },
+    {
+      "id": "ryKKSDcQN",
+      "input": {
+        "nodeId": "HkltSDq7V",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "HkuDBDqX4",
+        "pinKey": "HkW8a73Y7V"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "B1zYSv5mN",
+      "position": {
+        "x": 238,
+        "y": 306
+      },
+      "type": "xod/core/watch"
+    },
+    {
+      "id": "BJbKHw97N",
+      "position": {
+        "x": 170,
+        "y": 306
+      },
+      "type": "xod/core/watch"
+    },
+    {
+      "id": "BJeMtSvqXN",
+      "position": {
+        "x": 272,
+        "y": 306
+      },
+      "type": "xod/core/watch"
+    },
+    {
+      "id": "Hk1YSw9mV",
+      "position": {
+        "x": 102,
+        "y": 306
+      },
+      "type": "xod/core/watch"
+    },
+    {
+      "id": "HkltSDq7V",
+      "position": {
+        "x": 136,
+        "y": 306
+      },
+      "type": "xod/core/watch"
+    },
+    {
+      "id": "HkuDBDqX4",
+      "position": {
+        "x": 68,
+        "y": 204
+      },
+      "type": "@/abs-orient-sensor"
+    },
+    {
+      "id": "HyeZYHDq74",
+      "position": {
+        "x": 204,
+        "y": 306
+      },
+      "type": "xod/core/watch"
+    },
+    {
+      "id": "SyFuSv57N",
+      "position": {
+        "x": 68,
+        "y": 306
+      },
+      "type": "xod/core/watch"
+    }
+  ]
+}

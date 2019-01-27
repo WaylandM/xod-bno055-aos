@@ -27,15 +27,6 @@
       "type": "xod/patch-nodes/output-number"
     },
     {
-      "id": "HyIPCzMKQ4",
-      "label": "ERR",
-      "position": {
-        "x": 135,
-        "y": 203
-      },
-      "type": "xod/patch-nodes/output-pulse"
-    },
-    {
       "id": "HybP0GztX4",
       "label": "UPD",
       "position": {
@@ -46,7 +37,7 @@
     },
     {
       "id": "Hyrw0MMKmE",
-      "label": "OK",
+      "label": "DONE",
       "position": {
         "x": 101,
         "y": 203
@@ -64,7 +55,7 @@
     },
     {
       "id": "rkePCMMKQE",
-      "label": "dev",
+      "label": "DEV",
       "position": {
         "x": -1,
         "y": -1

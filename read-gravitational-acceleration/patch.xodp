@@ -10,15 +10,6 @@
       "type": "xod/patch-nodes/output-number"
     },
     {
-      "id": "Hk8wTffKXN",
-      "label": "ERR",
-      "position": {
-        "x": 135,
-        "y": 203
-      },
-      "type": "xod/patch-nodes/output-pulse"
-    },
-    {
       "id": "S1bwTGzYXN",
       "label": "UPD",
       "position": {
@@ -48,14 +39,14 @@
     {
       "id": "r1D6zfYXN",
       "position": {
-        "x": -1,
-        "y": 101
+        "x": 0,
+        "y": 102
       },
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
       "id": "rkrP6zGFXE",
-      "label": "OK",
+      "label": "DONE",
       "position": {
         "x": 101,
         "y": 203
