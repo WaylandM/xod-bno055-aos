@@ -13,8 +13,8 @@ void evaluate(Context ctx) {
     auto aos = getValue<input_DEV>(ctx);
 
     imu::Vector<3> euler = aos->getVector(Adafruit_BNO055::VECTOR_EULER);
-        emitValue<output_X>(ctx,euler.x());
-        emitValue<output_Y>(ctx,euler.y());
-        emitValue<output_Z>(ctx,euler.z());
-        emitValue<output_DONE>(ctx, 1);
+    emitValue<output_X>(ctx,euler.x());
+    emitValue<output_Y>(ctx,euler.y());
+    emitValue<output_Z>(ctx,euler.z());
+    emitValue<output_DONE>(ctx, 1);
 }

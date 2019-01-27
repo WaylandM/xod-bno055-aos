@@ -1,0 +1,139 @@
+{
+  "links": [
+    {
+      "id": "By1dCwoXE",
+      "input": {
+        "nodeId": "HkFcNDoQV",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "rJgmyDjX4",
+        "pinKey": "B1j7RviXN"
+      }
+    },
+    {
+      "id": "H1-u0wo74",
+      "input": {
+        "nodeId": "ryVj4Di74",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "rJgmyDjX4",
+        "pinKey": "HJ07RDoXE"
+      }
+    },
+    {
+      "id": "H15XkvimN",
+      "input": {
+        "nodeId": "HkdXkvj74",
+        "pinKey": "SyF7t7ZXN"
+      },
+      "output": {
+        "nodeId": "r1FzywjXE",
+        "pinKey": "B1IowM-7N"
+      }
+    },
+    {
+      "id": "HJj_BDim4",
+      "input": {
+        "nodeId": "rJuurvs7N",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "rJgmyDjX4",
+        "pinKey": "B1qVrvjQ4"
+      }
+    },
+    {
+      "id": "Hk8NyPiX4",
+      "input": {
+        "nodeId": "rJgmyDjX4",
+        "pinKey": "S1LktIjQ4"
+      },
+      "output": {
+        "nodeId": "r1FzywjXE",
+        "pinKey": "B1IowM-7N"
+      }
+    },
+    {
+      "id": "HkXOCPoQE",
+      "input": {
+        "nodeId": "ryBjNDsQN",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "rJgmyDjX4",
+        "pinKey": "BJk4CDi7N"
+      }
+    },
+    {
+      "id": "ryV4yPsmN",
+      "input": {
+        "nodeId": "rJgmyDjX4",
+        "pinKey": "SJmYtLomN"
+      },
+      "output": {
+        "nodeId": "HkdXkvj74",
+        "pinKey": "B1xgtXWQN"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "HkFcNDoQV",
+      "position": {
+        "x": 0,
+        "y": 408
+      },
+      "type": "xod/core/watch"
+    },
+    {
+      "id": "HkdXkvj74",
+      "position": {
+        "x": 68,
+        "y": 204
+      },
+      "type": "@/init"
+    },
+    {
+      "id": "r1FzywjXE",
+      "position": {
+        "x": 34,
+        "y": 102
+      },
+      "type": "@/bno055-device"
+    },
+    {
+      "id": "rJgmyDjX4",
+      "position": {
+        "x": 0,
+        "y": 306
+      },
+      "type": "@/read-rev-info"
+    },
+    {
+      "id": "rJuurvs7N",
+      "position": {
+        "x": 102,
+        "y": 408
+      },
+      "type": "xod/core/watch"
+    },
+    {
+      "id": "ryBjNDsQN",
+      "position": {
+        "x": 68,
+        "y": 408
+      },
+      "type": "xod/core/watch"
+    },
+    {
+      "id": "ryVj4Di74",
+      "position": {
+        "x": 34,
+        "y": 408
+      },
+      "type": "xod/core/watch"
+    }
+  ]
+}

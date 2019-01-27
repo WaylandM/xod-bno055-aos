@@ -13,8 +13,8 @@ void evaluate(Context ctx) {
     auto aos = getValue<input_DEV>(ctx);
 
     imu::Vector<3> magnetometer = aos->getVector(Adafruit_BNO055::VECTOR_MAGNETOMETER);
-        emitValue<output_X>(ctx,magnetometer.x());
-        emitValue<output_Y>(ctx,magnetometer.y());
-        emitValue<output_Z>(ctx,magnetometer.z());
-        emitValue<output_DONE>(ctx, 1);
+    emitValue<output_X>(ctx,magnetometer.x());
+    emitValue<output_Y>(ctx,magnetometer.y());
+    emitValue<output_Z>(ctx,magnetometer.z());
+    emitValue<output_DONE>(ctx, 1);
 }

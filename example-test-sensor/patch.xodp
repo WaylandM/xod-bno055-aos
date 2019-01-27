@@ -1,6 +1,17 @@
 {
   "links": [
     {
+      "id": "Bkiba3oXN",
+      "input": {
+        "nodeId": "Hysp52omE",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "SyNy6nomN",
+        "pinKey": "r1yhZRd8W"
+      }
+    },
+    {
       "id": "BkitSD5XN",
       "input": {
         "nodeId": "BJbKHw97N",
@@ -34,6 +45,28 @@
       }
     },
     {
+      "id": "HJ6kp3jQ4",
+      "input": {
+        "nodeId": "SyNy6nomN",
+        "pinKey": "HJAq-A_8-"
+      },
+      "output": {
+        "nodeId": "HkuDBDqX4",
+        "pinKey": "r1mR7ht7V"
+      }
+    },
+    {
+      "id": "Sk2-63imN",
+      "input": {
+        "nodeId": "HJhTchi7V",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "HJze6hoXN",
+        "pinKey": "r1yhZRd8W"
+      }
+    },
+    {
       "id": "Skg5rPqQV",
       "input": {
         "nodeId": "BJeMtSvqXN",
@@ -42,6 +75,17 @@
       "output": {
         "nodeId": "HkuDBDqX4",
         "pinKey": "Sy3abgq74"
+      }
+    },
+    {
+      "id": "r1rlphomN",
+      "input": {
+        "nodeId": "HJze6hoXN",
+        "pinKey": "HJAq-A_8-"
+      },
+      "output": {
+        "nodeId": "HkuDBDqX4",
+        "pinKey": "rk5W43KmE"
       }
     },
     {
@@ -104,6 +148,22 @@
       "type": "xod/core/watch"
     },
     {
+      "id": "HJhTchi7V",
+      "position": {
+        "x": 408,
+        "y": 408
+      },
+      "type": "xod/core/watch"
+    },
+    {
+      "id": "HJze6hoXN",
+      "position": {
+        "x": 408,
+        "y": 306
+      },
+      "type": "xod/core/count"
+    },
+    {
       "id": "Hk1YSw9mV",
       "position": {
         "x": 102,
@@ -136,12 +196,28 @@
       "type": "xod/core/watch"
     },
     {
+      "id": "Hysp52omE",
+      "position": {
+        "x": 306,
+        "y": 408
+      },
+      "type": "xod/core/watch"
+    },
+    {
       "id": "SyFuSv57N",
       "position": {
         "x": 68,
         "y": 306
       },
       "type": "xod/core/watch"
+    },
+    {
+      "id": "SyNy6nomN",
+      "position": {
+        "x": 306,
+        "y": 306
+      },
+      "type": "xod/core/count"
     }
   ]
 }

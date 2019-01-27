@@ -13,8 +13,8 @@ void evaluate(Context ctx) {
     auto aos = getValue<input_DEV>(ctx);
 
     imu::Vector<3> gyroscope = aos->getVector(Adafruit_BNO055::VECTOR_GYROSCOPE);
-        emitValue<output_X>(ctx,gyroscope.x());
-        emitValue<output_Y>(ctx,gyroscope.y());
-        emitValue<output_Z>(ctx,gyroscope.z());
-        emitValue<output_DONE>(ctx, 1);
+    emitValue<output_X>(ctx,gyroscope.x());
+    emitValue<output_Y>(ctx,gyroscope.y());
+    emitValue<output_Z>(ctx,gyroscope.z());
+    emitValue<output_DONE>(ctx, 1);
 }

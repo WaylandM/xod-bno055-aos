@@ -1,2 +1,78 @@
 {
+  "nodes": [
+    {
+      "id": "B1j7RviXN",
+      "label": "ACC",
+      "position": {
+        "x": 0,
+        "y": 306
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "id": "B1qVrvjQ4",
+      "label": "SW",
+      "position": {
+        "x": 102,
+        "y": 306
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "id": "BJk4CDi7N",
+      "label": "GYRO",
+      "position": {
+        "x": 68,
+        "y": 306
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "id": "HJ07RDoXE",
+      "label": "MAG",
+      "position": {
+        "x": 34,
+        "y": 306
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "id": "S1LktIjQ4",
+      "label": "DEV",
+      "position": {
+        "x": 0,
+        "y": 102
+      },
+      "type": "@/input-bno055-device"
+    },
+    {
+      "id": "SJIMcHo7N",
+      "position": {
+        "x": 0,
+        "y": 204
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "On Boot"
+      },
+      "id": "SJmYtLomN",
+      "label": "UPD",
+      "position": {
+        "x": 34,
+        "y": 102
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "rym6qUsQN",
+      "label": "DONE",
+      "position": {
+        "x": 136,
+        "y": 306
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    }
+  ]
 }
