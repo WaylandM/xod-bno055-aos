@@ -1,0 +1,242 @@
+{
+  "links": [
+    {
+      "id": "B1Yx9YhQV",
+      "input": {
+        "nodeId": "SkSn0FFn7E",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "rk01qYhX4",
+        "pinKey": "By-ItSntX4"
+      }
+    },
+    {
+      "id": "H193AKK3XN",
+      "input": {
+        "nodeId": "S1L2AFFhQE",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "HyOnCYtn7N",
+        "pinKey": "r1yhZRd8W"
+      }
+    },
+    {
+      "id": "H1e7qtnQE",
+      "input": {
+        "nodeId": "HyOnCYtn7N",
+        "pinKey": "HJAq-A_8-"
+      },
+      "output": {
+        "nodeId": "rk01qYhX4",
+        "pinKey": "H14IKrhtQE"
+      }
+    },
+    {
+      "id": "Hk1-5Y2XN",
+      "input": {
+        "nodeId": "r1NnAKth74",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "rk01qYhX4",
+        "pinKey": "SyVqRe5QN"
+      }
+    },
+    {
+      "id": "HkhlqK3QE",
+      "input": {
+        "nodeId": "B1m2CYYh74",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "rk01qYhX4",
+        "pinKey": "rJX8KH2YmN"
+      }
+    },
+    {
+      "id": "Hy--qYhmE",
+      "input": {
+        "nodeId": "ry3AFY3mE",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "rk01qYhX4",
+        "pinKey": "SkK50lqmN"
+      }
+    },
+    {
+      "id": "SJfX9K27E",
+      "input": {
+        "nodeId": "SyYn0KK3QV",
+        "pinKey": "HJAq-A_8-"
+      },
+      "output": {
+        "nodeId": "rk01qYhX4",
+        "pinKey": "HJSLYHhF7N"
+      }
+    },
+    {
+      "id": "Skce5YnmE",
+      "input": {
+        "nodeId": "rkGh0tt3m4",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "rk01qYhX4",
+        "pinKey": "ByMUtr2tmN"
+      }
+    },
+    {
+      "id": "Skvg9YhQE",
+      "input": {
+        "nodeId": "BJ_y9YnXV",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "rk01qYhX4",
+        "pinKey": "SyYoS2t7N"
+      }
+    },
+    {
+      "id": "SyTx9t3m4",
+      "input": {
+        "nodeId": "BklnAYt37V",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "rk01qYhX4",
+        "pinKey": "B1KYCg5mE"
+      }
+    },
+    {
+      "id": "rJQb5KnXN",
+      "input": {
+        "nodeId": "rkW2RtFnQE",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "rk01qYhX4",
+        "pinKey": "Sk950lqX4"
+      }
+    },
+    {
+      "id": "rkshAKYhQ4",
+      "input": {
+        "nodeId": "r1Dn0FY3QV",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "SyYn0KK3QV",
+        "pinKey": "r1yhZRd8W"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "B1m2CYYh74",
+      "position": {
+        "x": 68,
+        "y": 204
+      },
+      "type": "xod/core/watch"
+    },
+    {
+      "id": "BJ_y9YnXV",
+      "position": {
+        "x": -34,
+        "y": 204
+      },
+      "type": "xod/core/watch"
+    },
+    {
+      "id": "BklnAYt37V",
+      "position": {
+        "x": 102,
+        "y": 204
+      },
+      "type": "xod/core/watch"
+    },
+    {
+      "id": "HyOnCYtn7N",
+      "position": {
+        "x": 238,
+        "y": 204
+      },
+      "type": "xod/core/count"
+    },
+    {
+      "id": "S1L2AFFhQE",
+      "position": {
+        "x": 238,
+        "y": 306
+      },
+      "type": "xod/core/watch"
+    },
+    {
+      "id": "SkSn0FFn7E",
+      "position": {
+        "x": 0,
+        "y": 204
+      },
+      "type": "xod/core/watch"
+    },
+    {
+      "id": "SyYn0KK3QV",
+      "position": {
+        "x": 340,
+        "y": 204
+      },
+      "type": "xod/core/count"
+    },
+    {
+      "id": "r1Dn0FY3QV",
+      "position": {
+        "x": 340,
+        "y": 306
+      },
+      "type": "xod/core/watch"
+    },
+    {
+      "id": "r1NnAKth74",
+      "position": {
+        "x": 136,
+        "y": 204
+      },
+      "type": "xod/core/watch"
+    },
+    {
+      "id": "rk01qYhX4",
+      "position": {
+        "x": -34,
+        "y": 102
+      },
+      "type": "@/abs-orient-sensor-quaternion"
+    },
+    {
+      "id": "rkGh0tt3m4",
+      "position": {
+        "x": 34,
+        "y": 204
+      },
+      "type": "xod/core/watch"
+    },
+    {
+      "id": "rkW2RtFnQE",
+      "position": {
+        "x": 204,
+        "y": 204
+      },
+      "type": "xod/core/watch"
+    },
+    {
+      "id": "ry3AFY3mE",
+      "position": {
+        "x": 170,
+        "y": 204
+      },
+      "type": "xod/core/watch"
+    }
+  ]
+}
