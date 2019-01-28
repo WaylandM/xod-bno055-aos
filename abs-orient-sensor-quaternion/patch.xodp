@@ -12,43 +12,10 @@
       }
     },
     {
-      "id": "B1mD0x9mV",
-      "input": {
-        "nodeId": "HJMzAlcX4",
-        "pinKey": "r1dbe_vm4"
-      },
-      "output": {
-        "nodeId": "BJxItH3tmE",
-        "pinKey": "HJU8CE2lW"
-      }
-    },
-    {
       "id": "BJ8BuH2YQ4",
       "input": {
         "nodeId": "HJxH_HnKmN",
         "pinKey": "SyF7t7ZXN"
-      },
-      "output": {
-        "nodeId": "SyHdHnKmV",
-        "pinKey": "B1IowM-7N"
-      }
-    },
-    {
-      "id": "BJGpAgc7E",
-      "input": {
-        "nodeId": "Sykjr2KXN",
-        "pinKey": "BkSUMfYXE"
-      },
-      "output": {
-        "nodeId": "HJMzAlcX4",
-        "pinKey": "H1t4FuvQ4"
-      }
-    },
-    {
-      "id": "BJNTHhtXE",
-      "input": {
-        "nodeId": "Sykjr2KXN",
-        "pinKey": "r1QBMft7V"
       },
       "output": {
         "nodeId": "SyHdHnKmV",
@@ -67,6 +34,17 @@
       }
     },
     {
+      "id": "By2wNd3mV",
+      "input": {
+        "nodeId": "HJvLVdnmE",
+        "pinKey": "By9a5fPm4"
+      },
+      "output": {
+        "nodeId": "SyHdHnKmV",
+        "pinKey": "B1IowM-7N"
+      }
+    },
+    {
       "id": "H1t3Aeq7V",
       "input": {
         "nodeId": "Sk950lqX4",
@@ -75,17 +53,6 @@
       "output": {
         "nodeId": "HJMzAlcX4",
         "pinKey": "B1cGATY7N"
-      }
-    },
-    {
-      "id": "HJ7AS3Km4",
-      "input": {
-        "nodeId": "BJxItH3tmE",
-        "pinKey": "B13SCNhl-"
-      },
-      "output": {
-        "nodeId": "SyWHuShYmN",
-        "pinKey": "__out__"
       }
     },
     {
@@ -111,17 +78,6 @@
       }
     },
     {
-      "id": "HyApr2YmE",
-      "input": {
-        "nodeId": "BJxItH3tmE",
-        "pinKey": "BJJICN2lW"
-      },
-      "output": {
-        "nodeId": "HJxH_HnKmN",
-        "pinKey": "B1xgtXWQN"
-      }
-    },
-    {
       "id": "S1TJ1-qXV",
       "input": {
         "nodeId": "HJSLYHhF7N",
@@ -130,6 +86,17 @@
       "output": {
         "nodeId": "SkMCRx9m4",
         "pinKey": "ByHmL0uHPk-"
+      }
+    },
+    {
+      "id": "SJ_7Nu27E",
+      "input": {
+        "nodeId": "By-mNu3m4",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "SyWHuShYmN",
+        "pinKey": "__out__"
       }
     },
     {
@@ -144,14 +111,14 @@
       }
     },
     {
-      "id": "SkzGJ-97E",
+      "id": "Sk0vN_hmN",
       "input": {
-        "nodeId": "HJMzAlcX4",
-        "pinKey": "SycexuDX4"
+        "nodeId": "HJvLVdnmE",
+        "pinKey": "Hyp25Mwm4"
       },
       "output": {
-        "nodeId": "SyHdHnKmV",
-        "pinKey": "B1IowM-7N"
+        "nodeId": "HJxH_HnKmN",
+        "pinKey": "B1xgtXWQN"
       }
     },
     {
@@ -226,7 +193,7 @@
       "id": "B1KYCg5mE",
       "label": "SYS",
       "position": {
-        "x": -34,
+        "x": 340,
         "y": 102
       },
       "type": "xod/patch-nodes/output-byte"
@@ -243,7 +210,7 @@
     {
       "id": "BJxItH3tmE",
       "position": {
-        "x": 0,
+        "x": 374,
         "y": -102
       },
       "type": "xod/core/clock"
@@ -256,6 +223,15 @@
         "y": 306
       },
       "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "id": "By-mNu3m4",
+      "label": "WAIT",
+      "position": {
+        "x": 34,
+        "y": -306
+      },
+      "type": "xod/patch-nodes/to-bus"
     },
     {
       "id": "ByMUtr2tmN",
@@ -278,7 +254,7 @@
     {
       "id": "HJMzAlcX4",
       "position": {
-        "x": -34,
+        "x": 340,
         "y": 0
       },
       "type": "@/read-calibration"
@@ -293,9 +269,17 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
+      "id": "HJvLVdnmE",
+      "position": {
+        "x": 0,
+        "y": -102
+      },
+      "type": "@/read-sensor-status"
+    },
+    {
       "id": "HJxH_HnKmN",
       "position": {
-        "x": 68,
+        "x": 102,
         "y": -204
       },
       "type": "@/init"
@@ -304,7 +288,7 @@
       "id": "Sk950lqX4",
       "label": "MAG",
       "position": {
-        "x": 68,
+        "x": 442,
         "y": 102
       },
       "type": "xod/patch-nodes/output-byte"
@@ -313,7 +297,7 @@
       "id": "SkK50lqmN",
       "label": "ACC",
       "position": {
-        "x": 34,
+        "x": 408,
         "y": 102
       },
       "type": "xod/patch-nodes/output-byte"
@@ -338,7 +322,7 @@
       "id": "SyVqRe5QN",
       "label": "GYRO",
       "position": {
-        "x": 0,
+        "x": 374,
         "y": 102
       },
       "type": "xod/patch-nodes/output-byte"
