@@ -1,4 +1,5 @@
 {
+  "description": "Example to show how output from the bno055 absolute orientation sensor can be displayed on a text lcd screen. ",
   "links": [
     {
       "id": "BJb41lAQ4",

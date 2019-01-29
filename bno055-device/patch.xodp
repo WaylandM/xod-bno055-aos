@@ -1,6 +1,7 @@
 {
   "nodes": [
     {
+      "description": "A bno055 device.",
       "id": "B1IowM-7N",
       "label": "DEV",
       "position": {
@@ -13,6 +14,7 @@
       "boundLiterals": {
         "__out__": "0"
       },
+      "description": "User defined unique ID for this device.",
       "id": "HkecNeM7V",
       "label": "ID",
       "position": {
@@ -25,6 +27,7 @@
       "boundLiterals": {
         "__out__": "28h"
       },
+      "description": "I²C address of the bno055. Default is 28h. If ADR pin of Adafruit breakout board is set high (connected to 3V), then the I²C address becomes 29h.",
       "id": "SkjIclMQV",
       "label": "ADDRESS",
       "position": {

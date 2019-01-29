@@ -1,6 +1,8 @@
 {
+  "description": "Read status of bno055 sensor.",
   "nodes": [
     {
+      "description": "System status:\n0 = idle; \n1 = system error; \n2 = initializing peripherals; \n3 = system initialization; \n4 = executing self-test; \n5 = sensor fusion algorithm running ;\n6 = system running without fusion algorithm.",
       "id": "BJQG0Mv7N",
       "label": "STAT",
       "position": {
@@ -18,6 +20,7 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
+      "description": "A bno055 device.",
       "id": "By9a5fPm4",
       "label": "DEV",
       "position": {
@@ -37,6 +40,7 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
+      "description": "Self-test results: bit 0 = accelerometer self-test; bit 1 = magnetometer self-test; bit 2 = gyroscope self-test; bit 3 = MCU self-test. 0Fh = all good!",
       "id": "S1YmAzPmV",
       "label": "TEST",
       "position": {
@@ -46,6 +50,7 @@
       "type": "xod/patch-nodes/output-byte"
     },
     {
+      "description": "System error: 0 = no error; \n1 = peripheral initialization error; \n2 = system initialization error; \n3 = self test result failed; \n4 = register map value out of range; \n5 = register map address out of range; \n6 = register map write error; \n7 = low power mode not available for selected operation mode; \n8 = accelerometer power mode not available; \n9 = fusion algorithm configuration error; \nA = sensor configuration error.",
       "id": "SkrVRMPXN",
       "label": "SERR",
       "position": {
@@ -55,6 +60,7 @@
       "type": "xod/patch-nodes/output-byte"
     },
     {
+      "description": "Pulses on completion of read.",
       "id": "ry1mszwQE",
       "label": "DONE",
       "position": {

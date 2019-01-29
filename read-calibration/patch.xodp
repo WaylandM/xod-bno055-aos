@@ -1,6 +1,8 @@
 {
+  "description": "Reads calibration status of the system and three sensors. ",
   "nodes": [
     {
+      "description": "Magnetometer calibration on a scale of 0-3. 0 = uncalibrated; 3= fully calibrated.",
       "id": "B1cGATY7N",
       "label": "MAG",
       "position": {
@@ -10,6 +12,7 @@
       "type": "xod/patch-nodes/output-byte"
     },
     {
+      "description": "Pulses on read of calibration data.",
       "id": "H1t4FuvQ4",
       "label": "DONE",
       "position": {
@@ -19,6 +22,7 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
+      "description": "System calibration on a scale of 0-3. 0 = uncalibrated; 3= fully calibrated.",
       "id": "HJGXb_DQV",
       "label": "SYS",
       "position": {
@@ -36,6 +40,7 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
+      "description": "Gyroscope calibration on a scale of 0-3. 0 = uncalibrated; 3= fully calibrated.",
       "id": "S1dMApKm4",
       "label": "GYRO",
       "position": {
@@ -45,6 +50,7 @@
       "type": "xod/patch-nodes/output-byte"
     },
     {
+      "description": "A bno055 device.",
       "id": "SycexuDX4",
       "label": "DEV",
       "position": {
@@ -63,6 +69,7 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
+      "description": "Accelerometer calibration on a scale of 0-3. 0 = uncalibrated; 3= fully calibrated.",
       "id": "rktzCTKX4",
       "label": "ACC",
       "position": {

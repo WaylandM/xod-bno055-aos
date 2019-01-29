@@ -1,4 +1,5 @@
 {
+  "description": "Example patch for reading the chip revision numbers of the bno055 absolute orientation sensor.",
   "links": [
     {
       "id": "By1dCwoXE",

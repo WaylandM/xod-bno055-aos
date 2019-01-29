@@ -1,6 +1,8 @@
 {
+  "description": "Initializes bno055 device.",
   "nodes": [
     {
+      "description": "Pulse if initialization successful.",
       "id": "B1xgtXWQN",
       "label": "OK",
       "position": {
@@ -21,6 +23,7 @@
       "boundLiterals": {
         "__out__": "On Boot"
       },
+      "description": "Trigger for initialization. Default is to initialize on boot.",
       "id": "S1n3_7-QV",
       "label": "INIT",
       "position": {
@@ -30,6 +33,7 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
+      "description": "Pulse if initialization failed.",
       "id": "Sk6xYXWmV",
       "label": "ERR",
       "position": {
@@ -39,6 +43,7 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
+      "description": "A bno055 device.",
       "id": "SyF7t7ZXN",
       "label": "DEV",
       "position": {
