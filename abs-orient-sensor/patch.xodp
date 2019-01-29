@@ -1,4 +1,5 @@
 {
+  "description": "Continuously describes orientation using Euler angles (heading/yaw, pitch and roll).",
   "links": [
     {
       "id": "B1oVKIhQV",
@@ -390,6 +391,7 @@
       "type": "@/init"
     },
     {
+      "description": "Orientation in Y-axis (roll) in degrees. -90° to +90° (increasing with increasing inclination).",
       "id": "B1xUpXhF7V",
       "label": "Y",
       "position": {
@@ -407,6 +409,7 @@
       "type": "@/read-sensor-status"
     },
     {
+      "description": "System calibration on a scale of 0-3. 0 = uncalibrated; 3= fully calibrated.",
       "id": "H1H6Wg9XE",
       "label": "SYS",
       "position": {
@@ -441,6 +444,7 @@
       "type": "@/read-calibration"
     },
     {
+      "description": "Orientation in Z-axis (pitch) in degrees. +180° to -180°  (turning clockwise decreases values).",
       "id": "HkW8a73Y7V",
       "label": "Z",
       "position": {
@@ -475,6 +479,7 @@
       "boundLiterals": {
         "__out__": "0.1"
       },
+      "description": "Time (seconds) to wait between completing one reading and initiating another.",
       "id": "HybUMnFmN",
       "label": "WAIT",
       "position": {
@@ -484,6 +489,7 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
+      "description": "Gyroscope calibration on a scale of 0-3. 0 = uncalibrated; 3= fully calibrated.",
       "id": "S1caZx9XE",
       "label": "GYRO",
       "position": {
@@ -496,6 +502,7 @@
       "boundLiterals": {
         "__out__": "28h"
       },
+      "description": "I²C address of the bno055. Default is 28h. If ADR pin of Adafruit breakout board is set high (connected to 3V), then the I²C address becomes 29h.",
       "id": "SJXHX3KXV",
       "label": "ADDRESS",
       "position": {
@@ -514,6 +521,7 @@
       "type": "xod/patch-nodes/to-bus"
     },
     {
+      "description": "Accelerometer calibration on a scale of 0-3. 0 = uncalibrated; 3= fully calibrated.",
       "id": "Sks6bg5mV",
       "label": "ACC",
       "position": {
@@ -523,6 +531,7 @@
       "type": "xod/patch-nodes/output-byte"
     },
     {
+      "description": "Magnetometer calibration on a scale of 0-3. 0 = uncalibrated; 3= fully calibrated.",
       "id": "Sy3abgq74",
       "label": "MAG",
       "position": {
@@ -532,6 +541,7 @@
       "type": "xod/patch-nodes/output-byte"
     },
     {
+      "description": "Orientation in X-axis (heading/yaw) in degrees. 0° to 360° (turning clockwise increases values).",
       "id": "SyU6QhK7N",
       "label": "X",
       "position": {
@@ -549,6 +559,7 @@
       "type": "@/read-orientation"
     },
     {
+      "description": "Pulses after each read of sensor.",
       "id": "r1mR7ht7V",
       "label": "OK",
       "position": {
@@ -566,6 +577,7 @@
       "type": "@/bno055-device"
     },
     {
+      "description": "Pulses on error. ",
       "id": "rk5W43KmE",
       "label": "ERR",
       "position": {
@@ -575,6 +587,7 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
+      "description": "User defined unique ID for this device.",
       "id": "ryLWm3tXN",
       "label": "ID",
       "position": {

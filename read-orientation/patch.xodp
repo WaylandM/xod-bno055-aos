@@ -1,7 +1,8 @@
 {
+  "description": "Reads orientation in Euler angles (heading/yaw, pitch and roll).",
   "nodes": [
     {
-      "description": "Sample rate delay.",
+      "description": "Update. Triggers new read.",
       "id": "B17fKfzXE",
       "label": "UPD",
       "position": {
@@ -11,6 +12,7 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
+      "description": "Pulses on completion of read.",
       "id": "ByhTWdLQE",
       "label": "DONE",
       "position": {
@@ -20,6 +22,7 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
+      "description": "Orientation in Y-axis (roll) in degrees. -90° to +90° (increasing with increasing inclination).",
       "id": "HJy0IzzmN",
       "label": "Y",
       "position": {
@@ -29,6 +32,7 @@
       "type": "xod/patch-nodes/output-number"
     },
     {
+      "description": "Orientation in Z-axis (pitch) in degrees. +180° to -180°  (turning clockwise decreases values).",
       "id": "HJyJPfGQE",
       "label": "Z",
       "position": {
@@ -38,6 +42,7 @@
       "type": "xod/patch-nodes/output-number"
     },
     {
+      "description": "Orientation in X-axis (heading/yaw) in degrees. 0° to 360° (turning clockwise increases values).",
       "id": "Hks3UGG74",
       "label": "X",
       "position": {
@@ -47,6 +52,7 @@
       "type": "xod/patch-nodes/output-number"
     },
     {
+      "description": "A bno055 device.",
       "id": "rJZ5LfzmN",
       "label": "DEV",
       "position": {

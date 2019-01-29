@@ -1,4 +1,5 @@
 {
+  "description": "Create bno055 device.",
   "nodes": [
     {
       "description": "A bno055 device.",
