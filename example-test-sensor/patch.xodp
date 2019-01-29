@@ -166,16 +166,24 @@
     {
       "id": "Hk1YSw9mV",
       "position": {
-        "x": 102,
+        "x": 0,
         "y": 306
+      },
+      "size": {
+        "height": 51,
+        "width": 68
       },
       "type": "xod/core/watch"
     },
     {
       "id": "HkltSDq7V",
       "position": {
-        "x": 136,
+        "x": 68,
         "y": 306
+      },
+      "size": {
+        "height": 51,
+        "width": 68
       },
       "type": "xod/core/watch"
     },
@@ -206,8 +214,12 @@
     {
       "id": "SyFuSv57N",
       "position": {
-        "x": 68,
+        "x": -68,
         "y": 306
+      },
+      "size": {
+        "height": 51,
+        "width": 68
       },
       "type": "xod/core/watch"
     },
