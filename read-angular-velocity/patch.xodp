@@ -1,6 +1,8 @@
 {
+  "description": "Reads angular velocity in each of the three axes.",
   "nodes": [
     {
+      "description": "Angular velocity in X-axis (degrees per second).",
       "id": "BkfKRfGFm4",
       "label": "X",
       "position": {
@@ -27,11 +29,12 @@
       "type": "@/input-bno055-device"
     },
     {
+      "description": "Angular velocity in Y-axis (degrees per second).",
       "id": "SkmF0fzK74",
       "label": "Y",
       "position": {
-        "x": 33,
-        "y": 203
+        "x": 34,
+        "y": 204
       },
       "type": "xod/patch-nodes/output-number"
     },
@@ -45,6 +48,7 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
+      "description": "Angular velocity in Z-axis (degrees per second).",
       "id": "ry4YRGzF7N",
       "label": "Z",
       "position": {
@@ -54,6 +58,7 @@
       "type": "xod/patch-nodes/output-number"
     },
     {
+      "description": "Pulses on completion of read.",
       "id": "ryBY0zGYmV",
       "label": "DONE",
       "position": {

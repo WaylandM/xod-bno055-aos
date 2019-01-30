@@ -1,4 +1,5 @@
 {
+  "description": "Returns the current ambient temperature in degrees celsius.",
   "nodes": [
     {
       "id": "BJEBNPd7E",
@@ -9,6 +10,7 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
+      "description": "Update. Triggers new read.",
       "id": "H138gYdQV",
       "label": "UPD",
       "position": {
@@ -18,6 +20,7 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
+      "description": "A bno055 device.",
       "id": "HkfUNwOmV",
       "label": "DEV",
       "position": {
@@ -27,6 +30,7 @@
       "type": "@/input-bno055-device"
     },
     {
+      "description": "Pulses on completion of read.",
       "id": "SkO6Vvd7E",
       "label": "DONE",
       "position": {
@@ -36,6 +40,7 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
+      "description": "Current ambient temperature in degrees celsius.",
       "id": "r1qqEvdQV",
       "label": "TEMP",
       "position": {

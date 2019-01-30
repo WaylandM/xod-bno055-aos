@@ -1,4 +1,5 @@
 {
+  "description": "Patch for testing bno055 device using abs-orient-sensor node.",
   "links": [
     {
       "id": "Bkiba3oXN",

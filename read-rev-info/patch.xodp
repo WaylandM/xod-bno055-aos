@@ -1,6 +1,8 @@
 {
+  "description": "Read chip revision numbers of the bno055 absolute orientation sensor.",
   "nodes": [
     {
+      "description": "Accelerometer chip revision number.",
       "id": "B1j7RviXN",
       "label": "ACC",
       "position": {
@@ -10,6 +12,7 @@
       "type": "xod/patch-nodes/output-number"
     },
     {
+      "description": "Software revision number.",
       "id": "B1qVrvjQ4",
       "label": "SW",
       "position": {
@@ -19,6 +22,7 @@
       "type": "xod/patch-nodes/output-number"
     },
     {
+      "description": "Gyroscope chip revision number.",
       "id": "BJk4CDi7N",
       "label": "GYRO",
       "position": {
@@ -28,6 +32,7 @@
       "type": "xod/patch-nodes/output-number"
     },
     {
+      "description": "Magnetometer chip revision number.",
       "id": "HJ07RDoXE",
       "label": "MAG",
       "position": {
@@ -37,6 +42,7 @@
       "type": "xod/patch-nodes/output-number"
     },
     {
+      "description": "A bno055 device.",
       "id": "S1LktIjQ4",
       "label": "DEV",
       "position": {
@@ -57,6 +63,7 @@
       "boundLiterals": {
         "__out__": "On Boot"
       },
+      "description": "Update. Triggers new read.",
       "id": "SJmYtLomN",
       "label": "UPD",
       "position": {
@@ -66,6 +73,7 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
+      "description": "Pulses on completion of read.",
       "id": "rym6qUsQN",
       "label": "DONE",
       "position": {

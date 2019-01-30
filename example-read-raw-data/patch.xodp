@@ -1,5 +1,5 @@
 {
-  "description": "Example demonstrating the raw data that can be output from the sensor.",
+  "description": "Example demonstrating the reading of raw data from the sensor.",
   "links": [
     {
       "id": "B13uEP574",

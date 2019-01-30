@@ -54,8 +54,8 @@
       "id": "SycexuDX4",
       "label": "DEV",
       "position": {
-        "x": -1,
-        "y": -1
+        "x": 0,
+        "y": 0
       },
       "type": "@/input-bno055-device"
     },

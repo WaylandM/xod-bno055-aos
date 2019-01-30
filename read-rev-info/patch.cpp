@@ -18,7 +18,5 @@ void evaluate(Context ctx) {
     emitValue<output_MAG>(ctx,revInfo.mag_rev);
     emitValue<output_GYRO>(ctx,revInfo.gyro_rev);
     emitValue<output_SW>(ctx,revInfo.sw_rev);
-    //emitValue<output_Y>(ctx,euler.y());
-    //emitValue<output_Z>(ctx,euler.z());
     emitValue<output_DONE>(ctx, 1);
 }
