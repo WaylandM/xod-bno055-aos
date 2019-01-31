@@ -1,5 +1,5 @@
 {
-  "description": "Example to show how output from the bno055 absolute orientation sensor can be displayed on a text lcd screen. ",
+  "description": "Example to show how output from the bno055 absolute orientation sensor can be displayed on a text LCD screen.  The LCD screen will display heading/yaw (X), roll (Y), pitch (Z) and calibration status of system (C).",
   "links": [
     {
       "id": "BJb41lAQ4",
