@@ -1,5 +1,5 @@
 {
-  "description": "Read status of bno055 sensor.",
+  "description": "Reads status of bno055 sensor.",
   "nodes": [
     {
       "description": "System status:\n0 = idle; \n1 = system error; \n2 = initializing peripherals; \n3 = system initialization; \n4 = executing self-test; \n5 = sensor fusion algorithm running ;\n6 = system running without fusion algorithm.",

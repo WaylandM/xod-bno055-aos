@@ -1,5 +1,5 @@
 {
-  "description": "Reads acceleration in each of three axes.",
+  "description": "Reads acceleration in each of the three axes.",
   "nodes": [
     {
       "id": "BJwCMfKm4",
@@ -24,8 +24,8 @@
       "id": "HkmwCMzK74",
       "label": "Y",
       "position": {
-        "x": 33,
-        "y": 203
+        "x": 34,
+        "y": 204
       },
       "type": "xod/patch-nodes/output-number"
     },

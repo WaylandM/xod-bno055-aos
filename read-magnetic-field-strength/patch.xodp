@@ -1,6 +1,8 @@
 {
+  "description": "Reads magnetic field strength in each of the three axes.",
   "nodes": [
     {
+      "description": "Magnetic field strength in Y-axis (micro Tesla).",
       "id": "B17JCMGF7V",
       "label": "Y",
       "position": {
@@ -10,15 +12,17 @@
       "type": "xod/patch-nodes/output-number"
     },
     {
+      "description": "A bno055 device.",
       "id": "BygkAfMF7N",
       "label": "DEV",
       "position": {
-        "x": -1,
-        "y": -1
+        "x": 0,
+        "y": 0
       },
       "type": "@/input-bno055-device"
     },
     {
+      "description": "Magnetic field strength in Z-axis (micro Tesla).",
       "id": "S141AGfYmV",
       "label": "Z",
       "position": {
@@ -36,6 +40,7 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
+      "description": "Update. Triggers new read.",
       "id": "rJbyAfMtQE",
       "label": "UPD",
       "position": {
@@ -45,6 +50,7 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
+      "description": "Pulses on completion of read.",
       "id": "ryBJ0zGYQV",
       "label": "DONE",
       "position": {
@@ -54,6 +60,7 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
+      "description": "Magnetic field strength in X-axis (micro Tesla).",
       "id": "ryf1RGMtmN",
       "label": "X",
       "position": {

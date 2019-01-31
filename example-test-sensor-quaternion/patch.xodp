@@ -1,4 +1,5 @@
 {
+  "description": "Patch for testing bno055 device using abs-orient-sensor-quaternion node.",
   "links": [
     {
       "id": "B1Yx9YhQV",

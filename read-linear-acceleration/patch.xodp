@@ -1,6 +1,8 @@
 {
+  "description": "Reads linear acceleration (acceleration minus gravity) in each of the three axes.",
   "nodes": [
     {
+      "description": "A bno055 device. ",
       "id": "BJx36zfKQV",
       "label": "DEV",
       "position": {
@@ -10,6 +12,7 @@
       "type": "@/input-bno055-device"
     },
     {
+      "description": "Linear acceleration (acceleration minus gravity) in the Z-axis (m/s²).",
       "id": "BkVhpffYXE",
       "label": "Z",
       "position": {
@@ -19,6 +22,7 @@
       "type": "xod/patch-nodes/output-number"
     },
     {
+      "description": "Linear acceleration (acceleration minus gravity) in the X-axis (m/s²).",
       "id": "ByM3pMGtQE",
       "label": "X",
       "position": {
@@ -36,6 +40,7 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
+      "description": "Update. Triggers a new read.",
       "id": "Hk-naMztQE",
       "label": "UPD",
       "position": {
@@ -45,15 +50,17 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
+      "description": "Linear acceleration (acceleration minus gravity) in the Y-axis (m/s²).",
       "id": "SyXnazMKXV",
       "label": "Y",
       "position": {
-        "x": 33,
-        "y": 203
+        "x": 34,
+        "y": 204
       },
       "type": "xod/patch-nodes/output-number"
     },
     {
+      "description": "Pulses on completion of read.",
       "id": "rJS3pGzF7N",
       "label": "DONE",
       "position": {
