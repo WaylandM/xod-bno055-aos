@@ -202,7 +202,7 @@
     {
       "id": "r1NnAKth74",
       "position": {
-        "x": 136,
+        "x": 170,
         "y": 204
       },
       "type": "xod/core/watch"
@@ -234,7 +234,7 @@
     {
       "id": "ry3AFY3mE",
       "position": {
-        "x": 170,
+        "x": 136,
         "y": 204
       },
       "type": "xod/core/watch"

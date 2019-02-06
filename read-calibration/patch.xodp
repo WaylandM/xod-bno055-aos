@@ -44,7 +44,7 @@
       "id": "S1dMApKm4",
       "label": "GYRO",
       "position": {
-        "x": 34,
+        "x": 68,
         "y": 204
       },
       "type": "xod/patch-nodes/output-byte"
@@ -73,7 +73,7 @@
       "id": "rktzCTKX4",
       "label": "ACC",
       "position": {
-        "x": 68,
+        "x": 34,
         "y": 204
       },
       "type": "xod/patch-nodes/output-byte"

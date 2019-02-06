@@ -533,7 +533,7 @@
       "id": "SkK50lqmN",
       "label": "ACC",
       "position": {
-        "x": 0,
+        "x": -34,
         "y": 510
       },
       "type": "xod/patch-nodes/output-byte"
@@ -567,7 +567,7 @@
       "id": "SyVqRe5QN",
       "label": "GYRO",
       "position": {
-        "x": -34,
+        "x": 0,
         "y": 510
       },
       "type": "xod/patch-nodes/output-byte"
